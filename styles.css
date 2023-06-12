@@ -1,0 +1,193 @@
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background-image: url(https://w.forfun.com/fetch/31/311ec29b7cd62f88e30fd29439a58417.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+header {
+  background-color: red;
+  border-bottom: 3px yellow solid;
+}
+
+header .navbar-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .logo-title {
+  display: flex;
+  align-items: center;
+}
+
+header .navbar-title .logo {
+  width: 15%;
+  padding: 15px;
+  border-radius: 100%;
+}
+
+header .navbar-title .title {
+  color: white;
+}
+
+header .navbar-title .navbar a {
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+  padding: 0px 15px;
+}
+
+
+main .imgs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main .hds img {
+  width: 200px;
+  margin: 0px;
+  padding: 0px;
+}
+
+main .hds {
+  margin: 30px;
+  padding: 15px;
+  align-items: center;
+  text-align: center;
+  border: 2px yellow solid;
+  border-radius: 5%;
+  background-color: rgb(20, 20, 20);
+  color: white;
+  transition: 100ms;
+}
+
+main .hds button {
+  background-color: red;
+  margin: 0px;
+  padding: 1px 10px;
+  border-radius: 10px;
+  border-color: black;
+  border-style: solid;
+  color: white;
+}
+
+
+footer{
+  border-top: 3px yellow solid;
+}
+
+footer .info {
+  text-align: center;
+  color: white;
+  background-color: black;
+  padding: 20px;
+}
+
+main .hds:hover {
+  transform: scale(1.1);
+  transition: 100ms;
+}
+
+main .hds button:hover {
+  cursor: pointer;
+  color: black;
+  background-color: white;
+  transition: 100ms;
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+    background-color: red;
+    border-bottom: 3px yellow solid;
+  }
+
+  header .navbar-title {
+    display: block;
+    align-items: center;
+    text-align: center;
+  }
+
+  header .logo-title {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+
+  header .navbar-title .logo {
+    width: 15%;
+    padding: 5px;
+    border-radius: 100%;
+  }
+
+  header .navbar-title .title {
+    color: white;
+  }
+
+  header .navbar-title .navbar a {
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 0px 15px;
+  }
+
+  main .imgs {
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+
+  main .hds img {
+    width: 200px;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  main .hds {
+    margin: 25px;
+    padding: 15px;
+    align-items: center;
+    text-align: center;
+    border: 2px yellow solid;
+    border-radius: 5%;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    transition: 100ms;
+  }
+
+  main .hds button {
+    background-color: red;
+    margin: 0px;
+    padding: 1px 10px;
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    color: white;
+  }
+
+  footer{
+    border-top: 3px yellow solid;
+  }
+
+  footer .info {
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 20px;
+  }
+}
